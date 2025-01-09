@@ -48,7 +48,7 @@ This project implements a **login page** with form validation and integrates wit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/unstop-assignment-jyoti.git
+   git clone https://github.com/apprenant-jd00/unstop-assignment-jyoti.git
    ```
 
 2. Install dependencies:
@@ -70,7 +70,7 @@ This project implements a **login page** with form validation and integrates wit
 
 You can also access the live version of the project on Surge:
 
-- [Live Demo](your-surge-url.surge.sh)
+- [Live Demo](unstop-assignment-jyoti.surge.sh)
 
 ## **API Integration**
 
