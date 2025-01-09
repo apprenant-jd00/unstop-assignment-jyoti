@@ -1,0 +1,118 @@
+.pageWrapper {
+  background: #f4f4f4;
+  padding: 75px 74px 75px 74px;
+}
+
+.loginBannerImg {
+  width: 90%;
+  height: auto;
+}
+
+.formContainer {
+  padding: 40px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  width: 50%;
+}
+
+.welcomeTxt {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48.78px;
+  color: #1c1b1f;
+  margin: 0;
+}
+
+.unstopTxt {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 62.33px;
+  color: #6358dc;
+  margin: 0;
+}
+
+.noAccountTxt .forgotOrRegisterTxt {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.68px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.noAccountTxt {
+  padding-right: 2px;
+}
+
+.forgotOrRegisterTxt {
+  color: #6358dc;
+}
+
+.rememberMeTxt {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Small screens (phones, < 480px) */
+@media (max-width: 480px) {
+  .pageWrapper {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .loginBannerImg {
+    width: 50%;
+    height: auto;
+    margin-bottom: 8%;
+  }
+
+  .formContainer {
+    margin-top: 2%;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .welcomeTxt {
+    font-size: 22px;
+    line-height: 18.78px;
+  }
+
+  .unstopTxt {
+    font-size: 30px;
+    line-height: 42.33px;
+  }
+
+  .noAccountTxt .forgotOrRegisterTxt {
+    font-size: 14px;
+    line-height: 21.68px;
+  }
+}
+
+/* Medium screens (tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .pageWrapper {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .formContainer {
+    padding: 28px;
+    width: 50%;
+  }
+
+  .welcomeTxt {
+    font-size: 24px;
+    line-height: 18.78px;
+  }
+
+  .unstopTxt {
+    font-size: 30px;
+    line-height: 42.33px;
+  }
+
+  .noAccountTxt .forgotOrRegisterTxt {
+    font-size: 14px;
+    line-height: 21.68px;
+  }
+}

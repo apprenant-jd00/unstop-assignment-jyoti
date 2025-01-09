@@ -1,0 +1,106 @@
+.welcomeTxt {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48.78px;
+  color: #1c1b1f;
+  margin: 0;
+}
+
+.unstopTxt {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 62.33px;
+  margin: 0;
+  color: #6358dc;
+}
+
+.profileImg {
+  width: 40%;
+  height: auto;
+}
+
+.card {
+  margin-top: 6%;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 4px 14px 0px #000000a6;
+  max-width: 20%;
+}
+
+.nameTxt {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+  color: #6358dc;
+}
+
+.emailGenderTxt {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #383838;
+  margin-top: 0px;
+}
+
+/* Small screens (phones, < 480px) */
+@media (max-width: 480px) {
+  .welcomeTxt {
+    font-size: 24px;
+    line-height: 24.78px;
+  }
+
+  .unstopTxt {
+    font-size: 26px;
+    line-height: 32.33px;
+  }
+
+  .profileImg {
+    width: 40%;
+  }
+
+  .card {
+    margin-top: 10%;
+    max-width: 60%;
+  }
+
+  .nameTxt {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10.36px;
+  }
+}
+
+/* Medium screens (tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .welcomeTxt {
+    font-size: 28px;
+    line-height: 24.78px;
+  }
+
+  .unstopTxt {
+    font-size: 30px;
+    line-height: 42.33px;
+  }
+
+  .profileImg {
+    width: 40%;
+  }
+
+  .card {
+    margin-top: 8%;
+    max-width: 26%;
+  }
+
+  .nameTxt {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.36px;
+  }
+}
