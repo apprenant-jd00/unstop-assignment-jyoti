@@ -2,6 +2,8 @@
 
 This project implements a **login page** with form validation and integrates with a dummy API for authentication. As the API is not responsive during the development of this assignment, data is stored in the browser's **localStorage**. Upon successful login, the user is redirected to the **Main Page**, and upon logout, the user is redirected back to the login page.
 
+- [Documentation](https://drive.google.com/file/d/1s7hxkLqYouvAqEhweBhW839fUqlvBOC6/view?usp=sharing)
+
 ## **Technologies Used**
 
 - **React:** A frontend library used to build the user interface with reusable components.
