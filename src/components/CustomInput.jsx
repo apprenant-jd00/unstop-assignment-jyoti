@@ -45,10 +45,10 @@ const CustomInput = ({
 
   return (
     <StyledInputBox container alignItems="center" mb={1}>
-      <Grid item xs={1.5}>
+      <Grid item xs={1.5} md={1} sm={1.5}>
         <StyledImg src={icon} alt={`${label} icon`} />
       </Grid>
-      <Grid item xs={10.5}>
+      <Grid item xs={10.5} md={11} sm={10.5}>
         <TextField
           variant="standard"
           label={label}
@@ -61,8 +61,15 @@ const CustomInput = ({
             disableUnderline: true,
             endAdornment: showPasswordToggle && (
               <InputAdornment position="end">
-                <Button onClick={handleTogglePassword}>
-                  <img src={Visibility} alt="show password" />
+                <Button
+                  onClick={handleTogglePassword}
+                  style={{ marginBottom: 10, paddingRight: 0 }}
+                >
+                  <StyledImg
+                    src={Visibility}
+                    alt="show password"
+                    style={{ paddingTop: 0 }}
+                  />
                 </Button>
               </InputAdornment>
             ),
